@@ -8,7 +8,8 @@
     "url": "git+https://github.com/astares-ojo/astares-ojo.git"
   },
   "scripts": {
-    "ojo":   "node astares-ojo.js",
+    "ojo": "node astares-ojo.js",
+    "build": "browserify astares-ojo.js -o ojo.js & minify ojo.js > ojo.min.js",
     "debug": "node --nolazy --inspect-brk=9229 astares-ojo.js"
   },
   "keywords": [],
@@ -17,6 +18,8 @@
   "bugs": {
     "url": "https://github.com/astares-ojo/astares-ojo/issues"
   },
-  "homepage": "https://github.com/astares-ojo/"
+  "homepage": "https://github.com/astares-ojo/",
+  "dependencies": {
+    "node-minify": "^3.6.0"
+  }
 }
-
