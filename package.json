@@ -1,6 +1,6 @@
 {
   "name": "astares-ojo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Astares OJO",
   "main": "astares-ojo.js",
   "repository": {
@@ -19,7 +19,9 @@
     "url": "https://github.com/astares-ojo/astares-ojo/issues"
   },
   "homepage": "https://github.com/astares-ojo/",
-  "dependencies": {
+  "dependencies": {    
+  },
+  "devDependencies" : {
     "node-minify": "^3.6.0"
   }
 }
