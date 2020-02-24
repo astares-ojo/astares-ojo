@@ -10,6 +10,8 @@ class OJO {
 		[Object, Function, Symbol, Error, EvalError, RangeError, Date, Array, Number, Boolean, Date, Math].forEach(function(element) {   
             atom.Namespace.mapObjectToNamespace(element, "js.lang"); 	        
 		});		
+
+		atom.Namespace.mapObjectToNamespace(atom.Namespace, "ojo.lang.reflect");
     }
 	
 }
