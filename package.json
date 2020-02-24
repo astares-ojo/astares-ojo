@@ -1,0 +1,22 @@
+{
+  "name": "astares-ojo",
+  "version": "0.1.0",
+  "description": "Astares OJO",
+  "main": "astares-ojo.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astares-ojo/astares-ojo.git"
+  },
+  "scripts": {
+    "ojo":   "node astares-ojo.js",
+    "debug": "node --nolazy --inspect-brk=9229 astares-ojo.js"
+  },
+  "keywords": [],
+  "author": "Dipl.-Inf. Torsten Bergmann",
+  "license": "Astares License",
+  "bugs": {
+    "url": "https://github.com/astares-ojo/astares-ojo/issues"
+  },
+  "homepage": "https://github.com/astares-ojo/"
+}
+
