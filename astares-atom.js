@@ -36,13 +36,13 @@ Namespace : class Namespace {
       };
     
 
-	  /**
-	   * Map the given object to the given Namespace.
-	   * 
-	   * @param {*} object 
-	   * @param {*} namespaceName 
-	   */
-     static mapObjectToNamespace(object, namespaceName) {
+	/**
+	 * Map the given object to the given Namespace.
+	 * 
+	 * @param {*} object 
+	 * @param {*} namespaceName 
+	 */
+    static mapObjectToNamespace(object, namespaceName) {
 		if (typeof object !== 'undefined') {       
 		      (Namespace.create(namespaceName))[object.name] = object;
 		}
